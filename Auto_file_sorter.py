@@ -1,12 +1,12 @@
 import os, shutil
 
-path = r"C:/Users/jyssa/Downloads/"
+path = r"" #input the folder location/path you want to sort, ex.:Downloads folder
 
 # Map each folder to the extensions that belong in it
 categories = {
     "image files": (".png", ".jpg", ".jpeg", ".mp4"),
-    "documents": (".pdf"),
-    "application": (".exe"),
+    "documents": (".pdf", ".docx", ".xml", ".xlsx", ".csv"),
+    "application": (".exe")
 }
 
 # Create the folders if they don't exist
