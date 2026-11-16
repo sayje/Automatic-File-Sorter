@@ -1,6 +1,6 @@
 import os, shutil
 
-path = r"" #input the folder location/path you want to sort, ex.:Downloads folder
+path = r"" #input the folder location/path you want to sort inside the quotation marks, ex.:Downloads folder
 
 # Map each folder to the extensions that belong in it
 categories = {
